@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Cloning the repository...'
-                git branch: 'main', url: 'https://github.com/shiv727124/PES2UG22CS035_Jenkin'
+                git branch: 'main', url: 'https://github.com/abhyudaya13/pes2ug22cs022_jenkins'
                 
                 script {
                     // Replace 'hello.cpp' with the actual filename in your repo
